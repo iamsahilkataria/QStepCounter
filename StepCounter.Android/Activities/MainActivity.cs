@@ -28,13 +28,13 @@ using StepCounter.Controls;
 using Android.Views.Animations;
 using StepCounter.Services;
 using System.Collections.Generic;
-
+using Android.Views;
 
 namespace StepCounter.Activities
 {
-	[Activity (Label = "Step Counter", Icon="@drawable/ic_launcher", LaunchMode = LaunchMode.SingleTask, MainLauncher = true, Theme = "@style/MyTheme", ScreenOrientation = ScreenOrientation.Portrait)]
-	public class MainActivity : Activity
-	{
+	[Activity (Label = "Step Counter", Icon= "@drawable/appicon", LaunchMode = LaunchMode.SingleTask, MainLauncher = true, Theme = "@style/MyTheme", ScreenOrientation = ScreenOrientation.Portrait)]
+	public class MainActivity : Activity, View.IOnClickListener
+    {
 
 		public bool IsBound { get; set; }
 		private StepServiceBinder binder;
@@ -107,7 +107,10 @@ namespace StepCounter.Activities
 			highScore = FindViewById<ImageView> (Resource.Id.high_score);
 			warning = FindViewById<ImageView> (Resource.Id.warning);
 
-			calorieString = Resources.GetString (Resource.String.calories);
+            FindViewById(Resource.Id.poweredlogo).SetOnClickListener(this);
+            FindViewById(Resource.Id.poweredlogo1).SetOnClickListener(this);
+
+            calorieString = Resources.GetString (Resource.String.calories);
 			distanceString = Resources.GetString (Helpers.Settings.UseKilometeres ? Resource.String.kilometeres : Resource.String.miles);
 			percentString = Resources.GetString (Resource.String.percent_complete);
 			completedString = Resources.GetString (Resource.String.completed);
@@ -375,7 +378,21 @@ namespace StepCounter.Activities
 				this.Title = Utils.DateString;
 			});
 		}
-	}
+
+        public void OnClick(View v)
+        {
+            switch (v.Id)
+            {
+                case Resource.Id.poweredlogo:
+                case Resource.Id.poweredlogo1:
+                    {
+                        Intent browserIntent = new Intent(Intent.ActionView, Android.Net.Uri.Parse("https://qservicesit.net/"));
+                        StartActivity(browserIntent);
+                    }
+                    break;
+            }
+        }
+    }
 }
 
 

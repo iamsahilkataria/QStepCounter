@@ -41,7 +41,7 @@ namespace StepCounter.Activities
 		Total = 2
 	}
 
-	[Activity (Label = "@string/menu_history", Icon = "@drawable/ic_launcher", Theme = "@style/ThemeActionBar", ScreenOrientation = ScreenOrientation.Portrait)]			
+	[Activity (Label = "@string/menu_history", Icon = "@drawable/appicon", Theme = "@style/ThemeActionBar", ScreenOrientation = ScreenOrientation.Portrait)]			
 	public class HistoryActivity : Activity, ActionBar.IOnNavigationListener
 	{
 		ListFragment list;
@@ -204,7 +204,7 @@ namespace StepCounter.Activities
 			var item = adapter [e.Position];
 
 			var alert = new AlertDialog.Builder (this);
-			alert.SetIcon (Resource.Drawable.ic_launcher);
+			alert.SetIcon (Resource.Drawable.appicon);
 			alert.SetTitle (Resource.String.steps_cap);
 			var view = LayoutInflater.Inflate (Resource.Layout.step_entry, null);
 			var stepsEdit = view.FindViewById<EditText> (Resource.Id.step_count);

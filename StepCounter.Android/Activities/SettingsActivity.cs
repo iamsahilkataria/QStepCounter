@@ -30,7 +30,7 @@ namespace StepCounter.Activities
 	/// <summary>
 	/// Parent setting activity, all ti does is load up the headers
 	/// </summary>
-	[Activity (Label = "@string/menu_settings", Icon="@drawable/ic_launcher", Theme = "@style/ThemeActionBar", ScreenOrientation = ScreenOrientation.Portrait)]
+	[Activity (Label = "@string/menu_settings", Icon= "@drawable/appicon", Theme = "@style/ThemeActionBar", ScreenOrientation = ScreenOrientation.Portrait)]
 	public class SettingsActivity : PreferenceActivity, ISharedPreferencesOnSharedPreferenceChangeListener
 	{
 

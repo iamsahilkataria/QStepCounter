@@ -175,31 +175,81 @@
     <InterfaceDefinition Include="StepCounter.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\120 - Retina iPad App Icon.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\144 - Retina iPad App Icon.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\152 - Retina iPad App Icon.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\29 - Retina iPad App Icon.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\58 - Retina iPad App Icon.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\76 - Retina iPad App Icon.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\80 - Retina iPad App Icon.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Contents.json" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_29x29.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_29x29%402x.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_50x50.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_50x50%402x.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_57x57.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_57x57%402x.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_72x72.png" />
-    <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Contents.json" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon-Small.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon-Small%402x.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon%402x.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon-60%402x.png" />
-    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon-Small-40%402x.png" />
-    <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Default%402x.png" />
-    <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Default-568h%402x.png" />
-    <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Default.png" />
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\120 - Retina iPad App Icon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\144 - Retina iPad App Icon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\152 - Retina iPad App Icon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\29 - Retina iPad App Icon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\58 - Retina iPad App Icon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\76 - Retina iPad App Icon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\80 - Retina iPad App Icon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_29x29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_29x29%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_50x50.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_50x50%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_57x57.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_57x57%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\icon_72x72.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon-Small.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon-Small%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon-60%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Icon-Small-40%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Default%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Default-568h%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Default.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />

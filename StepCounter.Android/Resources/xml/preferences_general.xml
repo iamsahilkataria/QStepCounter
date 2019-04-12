@@ -23,20 +23,20 @@
 	</PreferenceCategory>
 	<PreferenceCategory android:title="@string/about">
 		<Preference android:title="@string/created_by" android:summary="@string/created_by_summary">
-			<intent android:action="android.intent.action.VIEW" android:data="http://www.twitter.com/JamesMontemagno" />
+			<intent android:action="android.intent.action.VIEW" android:data="https://qservicesit.net/" />
 		</Preference>
-		<Preference android:title="@string/inspired_by" android:summary="@string/inspired_by_summary">
+		<!--<Preference android:title="@string/inspired_by" android:summary="@string/inspired_by_summary">
 			<intent android:action="android.intent.action.VIEW" android:data="http://www.twitter.com/micjames6" />
-		</Preference>
-		<Preference android:title="@string/version" android:summary="@string/copyright" />
+		</Preference>-->
+		<!--<Preference android:title="@string/version" android:summary="@string/copyright" />-->
 		<Preference android:title="@string/created_with" android:summary="@string/created_with_summary">
 			<intent android:action="android.intent.action.VIEW" android:data="http://www.xamarin.com" />
 		</Preference>
  		<Preference
 	            android:title="@string/review_app"
 	            android:summary="@string/review_app_summary">
-	      <intent android:action="android.intent.action.VIEW"
-	              android:data="http://market.android.com/details?id=com.refractored.mystepcounter" />
+	      <!--<intent android:action="android.intent.action.VIEW"
+	              android:data="http://market.android.com/details?id=com.refractored.mystepcounter" />-->
 	    </Preference>
 		<Preference android:title="@string/reset_high_score" android:key="reset_high_score">
 		</Preference>

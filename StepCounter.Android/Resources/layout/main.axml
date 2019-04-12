@@ -94,12 +94,11 @@
                 android:fontFamily="sans-serif-light"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/white" />
-        </LinearLayout>
-        <FrameLayout
+			<FrameLayout
             android:fitsSystemWindows="true"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom">
+            >
             <TextView
                 android:text="@string/calories"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -126,6 +125,47 @@
                 android:layout_gravity="bottom|right"
                 android:fontFamily="sans-serif"
                 android:textColor="@color/white" />
+        </FrameLayout>
+        </LinearLayout>
+        
+		<FrameLayout
+            android:fitsSystemWindows="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+            <LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				>
+				<TextView
+					android:id="@+id/poweredlogo"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Made with ❤️ by"
+					android:textColor="@color/white"
+					android:textSize="15sp"
+					android:layout_gravity="center_vertical"
+				/>
+				<TextView
+					android:id="@+id/poweredlogo1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="2dp"
+					android:text="QServices Inc."
+					android:textSize="15sp"
+					android:textColor="@color/white"
+					android:layout_gravity="center_vertical"
+				/>
+            <!--<ImageView
+                android:id="@+id/poweredlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:src="@drawable/ic_warning"
+                android:layout_gravity="bottom|center_horizontal"
+                android:alpha="0.2" />-->
+            </LinearLayout>
         </FrameLayout>
     </FrameLayout>
 </stepcounter.controls.ProgressView>

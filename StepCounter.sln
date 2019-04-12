@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepCounter.Android", "StepCounter.Android\StepCounter.Android.csproj", "{CE7D99E2-F6C4-4741-AAAB-F1FFF182C56B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepCounter.iOS", "StepCounter\StepCounter.iOS.csproj", "{E0535745-3089-4824-AF07-D1472F404A0D}"
@@ -27,6 +29,7 @@ Global
 		{CE7D99E2-F6C4-4741-AAAB-F1FFF182C56B}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
 		{CE7D99E2-F6C4-4741-AAAB-F1FFF182C56B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{CE7D99E2-F6C4-4741-AAAB-F1FFF182C56B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CE7D99E2-F6C4-4741-AAAB-F1FFF182C56B}.Debug|iPhone.Deploy.0 = Debug|Any CPU
 		{CE7D99E2-F6C4-4741-AAAB-F1FFF182C56B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{CE7D99E2-F6C4-4741-AAAB-F1FFF182C56B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{CE7D99E2-F6C4-4741-AAAB-F1FFF182C56B}.Release|iPhone.ActiveCfg = Release|Any CPU
@@ -41,8 +44,8 @@ Global
 		{E0535745-3089-4824-AF07-D1472F404A0D}.AppStore|iPhone.Build.0 = AppStore|iPhone
 		{E0535745-3089-4824-AF07-D1472F404A0D}.AppStore|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{E0535745-3089-4824-AF07-D1472F404A0D}.AppStore|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{E0535745-3089-4824-AF07-D1472F404A0D}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{E0535745-3089-4824-AF07-D1472F404A0D}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E0535745-3089-4824-AF07-D1472F404A0D}.Debug|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{E0535745-3089-4824-AF07-D1472F404A0D}.Debug|iPhone.Build.0 = Debug|iPhoneSimulator
 		{E0535745-3089-4824-AF07-D1472F404A0D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{E0535745-3089-4824-AF07-D1472F404A0D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{E0535745-3089-4824-AF07-D1472F404A0D}.Release|iPhone.ActiveCfg = Release|iPhone
@@ -50,10 +53,13 @@ Global
 		{E0535745-3089-4824-AF07-D1472F404A0D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{E0535745-3089-4824-AF07-D1472F404A0D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = StepCounter\StepCounter.iOS.csproj
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7F071A5-315D-427C-8269-118287C8902E}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = StepCounter\StepCounter.iOS.csproj
 	EndGlobalSection
 EndGlobal
